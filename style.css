@@ -88,8 +88,21 @@ main {
     margin-top: 7em;
 }
 
-.about {
-    
+.hobby, .projectPic {
+    float: left;
+    width: 50%;
+    margin-right: 30px;
+}
+
+section h3 {
+    text-align: center;
+}
+
+.project {
+    background: rgb(114, 182, 249);
+    box-shadow: 0 3px 6px -2px grey;
+    padding:20px;
+    margin: 20px;
 }
 
 footer {
