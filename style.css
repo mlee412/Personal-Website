@@ -103,6 +103,12 @@ section h3 {
     box-shadow: 0 3px 6px -2px grey;
     padding:20px;
     margin: 20px;
+    border-radius:20px;
+}
+
+#projectTitle{
+    text-align: center;
+    text-shadow: 2px 2px 3px white;
 }
 
 footer {
