@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1 id="name">Mo S. Lee</h1>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="portfolio.html">PORTFOLIO</a>
+          <a href="./contact.html">CONTACT</a>
+        </nav>
+    </header>
+    <main>
+        <h1 id="contactMo">Contact Mo :</h1>
+        <form>
+            <div class="contact">
+                <label for="fname">First Name : </label>
+                <input id="fname" type="text" name="name" required>
+            </div>
+            <div class="contact">
+                <label for="lname">Last Name : </label>
+                <input id="lname" type="text" name="lame" required>
+            </div>
+            <div class="contact">
+                <label for="pnum">Phone Number : </label>
+                <div class="ptype">
+                    <input type="radio" name="numFor" id="home" value="home" required>
+                    <label for="home">HOME</label>
+                    <input type="radio" name="numFor" id="mobile" value="mobile" required>
+                    <label for="mobile">MOBILE</label>
+                </div>
+                <input id="pnum" type="tel" name="pnum" required>
+            </div>
+            <div class="contact">
+                <label for="email">Your Email : </label>
+                <input id="email" type="email" name="email" required>
+            </div>
+            <div class="contact">
+                <label for="message">Your Message : </label>
+                <textarea id="message" name="message" rows="5" cols="50" required></textarea>
+            </div>
+            <div class="contact choice">
+                <label for="bestTimeToContact">Best time to contact : </label>
+                <select name="bestTimeToContact" id="bestTimeToContact">
+                    <option value="morning">Morning</option>
+                    <option value="afternoon">Afternoon</option>
+                    <option value="evening">Evening</option>
+                </select>
+            </div>
+            <div class="contact">
+                <input type="submit" value="Submit" class="custom-submit">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <a href="https://facebook.com">Facebook</a>
+        <a href="https://linkedin.com">LinkedIn</a>
+        <a href="https://twitter.com/?lang=en">Twitter</a>
+    </footer>
+</body>
+</html>

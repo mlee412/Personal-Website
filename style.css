@@ -1,5 +1,5 @@
 html {
-  background-image: url(sky.jgp.webp);
+  background-image: url(sky.webp);
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -34,12 +34,11 @@ header {
 
 nav {
   width: 50%;
-  max-width: 250px;
   font-family: helvetica;
   color: rgb(78, 78, 78);
-  display: flex;
-  justify-content: space-between;
   padding-right: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
 a {
@@ -56,12 +55,12 @@ nav:hover {
 }
 
 body {
-  background-color: rgb(152, 204, 253);
+  background-color: rgb(152, 204, 253,0.5);
   opacity: 0.9;
   box-shadow: 0 0 20px -2px rgb(102, 196, 255);
   margin: 0 auto;
   max-width: 1000px;
-  padding: 0;
+  padding: 20px;
   font-family: Helvetica, arial, sans-serif;
 }
 
@@ -85,6 +84,7 @@ main {
   font-family: cursive;
   font-size: 30px;
   text-align: center;
+  text-shadow: 1px 1px 2px white;
   margin-top: 7em;
 }
 
@@ -110,6 +110,51 @@ section h3 {
 #projectTitle {
   text-align: center;
   text-shadow: 2px 2px 3px white;
+}
+
+#contactMo {
+  text-align: center;
+  margin-top:0;
+}
+
+.contact {
+  max-width:500px;
+  margin:0 auto;
+}
+
+input{
+  width:100%;
+  padding: 5px;
+  margin-bottom:10px;
+  border-radius: 10px;
+}
+
+input[type="radio"] {
+  width:unset;
+  height:20px;;
+}
+
+textarea {
+  width:100%;
+  border-radius: 10px;
+}
+
+.choice {
+  margin:10px auto;
+}
+
+.custom-submit {
+  font-size:50px;
+  width:50%;
+  height:5rem;
+  display: block;
+  margin:30px auto;
+}
+
+.ptype {
+  display: inline-block;
+  font-size: 0.8em;
+  margin-left:20px;
 }
 
 footer {
